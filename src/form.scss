@@ -1,0 +1,28 @@
+.form{
+    height: 457px;
+    width: 100%;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+    margin-top: 50px;
+}
+#buttons{
+    margin-top: 20px;
+    button{
+        margin: 5px;
+        background-color: cadetblue;
+    }
+}
+
+
+#result{
+    margin-top: 20px;
+    background-color: #b4c1c4;
+    width: 80%;
+    height: 250px;
+    border: 1px solid gray
+  }
+  

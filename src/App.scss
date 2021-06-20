@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: space-around;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#result{
+  background-color: #61dafb;
+  height: 10%;
+}

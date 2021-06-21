@@ -10,7 +10,7 @@ import Result from './result';
       super(props);
       this.state={
         results:['no results yet'],
-        Headers:{header:'NA'},
+        Headers:{data:'NA'},
         count:0
       }
     }

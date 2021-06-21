@@ -12,7 +12,7 @@ As a user, I want to see the results returned from an API request in my browser 
 ## links
 
 * [Repo link](https://github.com/engnour94/resty)
-* [Heroku](https://engnour94.github.io/resty/)
+* [Deployed link](https://engnour94.github.io/resty/)
 
 ## UML
 ![img](_resty1.jpg)

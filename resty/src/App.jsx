@@ -55,6 +55,8 @@ class App extends React.Component {
   render(){
     return(
       <React.Fragment>
+
+        <div className=".App">
       <Header/>
       <main>
       <History historyHandler={this.handleHistory} after={this.afterSubmit}   arr={this.state.array} flag={this.state.flag} />
@@ -63,6 +65,7 @@ class App extends React.Component {
       </main>
   
       <Footer/>
+      </div>
       </React.Fragment>
     )
   }

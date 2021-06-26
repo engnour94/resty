@@ -135,7 +135,7 @@ class Form extends React.Component{
                 <input id="inputs"  type="text" name="inputurl" onChange={this.handleInput} />
                 <div id='formd'>
             
-                <h4>{this.props.meth || this.state.method}  :  {this.props.ur || this.state.section} </h4>
+                <h4 id= "result">{this.props.meth || this.state.method}  :  {this.props.ur || this.state.section} </h4>
                 <input id="submit" type="submit" value="Go!"/><br/>
                 </div>
 

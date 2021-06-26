@@ -1,4 +1,4 @@
-.form{
+#form{
     height: 110px;
     width: 100%;
     display: flex;
@@ -8,6 +8,7 @@
 	align-items: center;
 	align-content: center;
     margin-top: 20px;
+    margin-bottom: 60px;
 }
 #buttons{
     margin-top: 5px;
@@ -18,10 +19,10 @@
 }
 
 
-#result{
+#c{
     margin-top: 5px;
     background-color: #b4c1c4;
-    width: 20%;
+    width: 100%;
     height: 20px;
     border: 1px solid gray
   }

@@ -130,26 +130,26 @@ class Form extends React.Component{
     render (){
         return (
             <React.Fragment>
-            <form onSubmit={this.submitHandler}>
+              <div id='form'>
+                <form onSubmit={this.submitHandler}>
                 <label for="url-input">URL : </label>
-                <input id="inputs"  type="text" name="inputurl" onChange={this.handleInput} />
-                <div id='formd'>
-            
-                <h4 id= "result">{this.props.meth || this.state.method}  :  {this.props.ur || this.state.section} </h4>
+                <input id="inputs"  type="text"  onChange={this.handleInput}/>
                 <input id="submit" type="submit" value="Go!"/><br/>
-                </div>
-
-                <IF condition={this.state.flag}>
-                    <Loader></Loader>
-                </IF>
-
+                
+                <div id='buttons'>
                 <button id="get" onClick={this.handleClick} value="GET">GET</button>
                 <button id="post" onClick={this.handleClick} value="POST">POST</button>
                 <button id="put" onClick={this.handleClick} value="PUT">PUT</button>
                 <button id="delete" onClick={this.handleClick} value="DELETE">DELETE</button>
-                <textarea rows="4" cols="50" id="textarea" name="body"  placeholder="please enter a json body"></textarea>
+                </div>
+                <h4 id= "result">{this.props.meth || this.state.method}  :  {this.props.ur || this.state.section} </h4>
+                <IF condition={this.state.flag}>
+                    <Loader></Loader>
+                </IF>
+               
+                <textarea rows="4" cols="50" id="textarea" name="body"  placeholder="You should add a json body"></textarea>
             </form>
-           
+            </div>
             </React.Fragment>
         )
     };

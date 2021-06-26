@@ -11,9 +11,9 @@ class App extends React.Component {
   constructor (props){
     super (props);
     this.state = {
-      results : ['search result will appear here :'],
+      results : ['Results will be here'],
       count : 0,
-      header : 'headers will be displayed here',
+      header : 'Headers will be here',
       array : [],
       method : '',
       URL : '',

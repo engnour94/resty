@@ -36,3 +36,17 @@ The following user stories detail the major functionality for this phase of the 
 * [Repo link](https://github.com/engnour94/resty)
 * [not deployed yet]()
 
+## Phase 4 Requirements
+In this final phase of the RESTy build, we will be adding some more fidelity to the application, including a menu with a ore detailed view of our history, as well as an about us page.
+
+The following user stories detail the major functionality for this phase of the project.
+
+As a user, I want to see all of my previous queries as a separate page so that I can browse them in greater detail
+As a user, I would like to view a separate “Help” page so I can learn how the application works
+
+## UML
+![img](_resty3.jpg)
+## links
+
+* [Repo link](https://github.com/engnour94/resty)
+* [ deployed link](https://engnour94.github.io/resty/)

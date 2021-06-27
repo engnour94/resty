@@ -1,4 +1,5 @@
 import React from 'react';
+import './history.scss'
 class History extends React.Component {
     constructor (props){
         super (props)
@@ -31,7 +32,7 @@ class History extends React.Component {
       render (){
           return (
             <React.Fragment>
-        
+          <div id="historyStyle">
               <ul>
                  {  
                      this.props.arr.map(item=>{
@@ -67,6 +68,7 @@ class History extends React.Component {
                      
                   }
               </ul>
+              </div>
             
         </React.Fragment>
                    

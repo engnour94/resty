@@ -46,8 +46,7 @@ class Form extends React.Component{
             }else {
                 body2 = e.target.body.value
             }
-            // console.log ('body after histoty1' , body2)
-                // input.value = url2
+
            
         }else {
             method2 = this.state.method

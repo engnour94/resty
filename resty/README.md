@@ -49,4 +49,4 @@ As a user, I would like to view a separate “Help” page so I can learn how th
 ## links
 
 * [Repo link](https://github.com/engnour94/resty)
-* [ deployed link](https://engnour94.github.io/)
+* [ deployed link](https://engnour94.github.io/resty/)
